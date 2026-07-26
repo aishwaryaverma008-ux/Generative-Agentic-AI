@@ -1,0 +1,264 @@
+ 1. ZERO-SHOT PROMPTS 
+Prompt 1
+
+Prompt:
+“Explain machine learning.”
+
+Before Output (basic):
+Machine learning is a field of AI that allows systems to learn from data.
+
+After Output (improved clarity):
+Machine learning is a branch of artificial intelligence where computers learn patterns from data and make decisions without being explicitly programmed. For example, it can be used in recommendation systems like Netflix or fraud detection in banks.
+ PROMPT 2
+
+Prompt:
+“What is Python?”
+
+Before:
+Python is a programming language.
+
+After:
+Python is a high-level, easy-to-learn programming language used for web development, data science, AI, and automation. It is popular due to its simple syntax and large community support.
+
+Prompt 3
+
+Prompt:
+“Define cloud computing.”
+
+Before:
+Cloud computing is storing data online.
+
+After:
+Cloud computing is the delivery of computing services (like storage, servers, and software) over the internet instead of using local computers, allowing users to access data anytime from anywhere.
+ Prompt 4
+
+Prompt:
+“What is data science?”
+
+Before:
+Data science is about data analysis.
+
+After:
+Data science is a field that combines statistics, programming, and domain knowledge to extract meaningful insights from data and support decision-making.
+ Prompt 5
+
+Prompt:
+“Explain neural networks.”
+
+Before:
+Neural networks are AI models.
+
+After:
+Neural networks are computational models inspired by the human brain that process data through layers of interconnected nodes to recognize patterns, widely used in image recognition and NLP.
+
+🧠 2. FEW-SHOT PROMPTS (With examples)
+🔹 Prompt 6
+
+Prompt:
+Convert sentences into questions.
+Examples:
+“I am happy.” → “Are you happy?”
+“She is coming.” → “Is she coming?”
+
+Convert: “They are ready.”
+
+Before:
+They are ready?
+
+After:
+Are they ready?
+
+🔹 Prompt 7
+
+Prompt:
+Classify sentiment:
+“I love this product.” → Positive
+“This is bad.” → Negative
+
+Classify: “The movie was okay.”
+
+Before:
+Neutral
+
+After:
+Neutral (because it expresses neither strong positive nor negative emotion)
+
+🔹 Prompt 8
+
+Prompt:
+Translate:
+Hello → Hola
+Thank you → Gracias
+
+Translate: “Good morning”
+
+Before:
+Buenos días
+
+After:
+Buenos días (formal Spanish greeting used in the morning)
+
+🔹 Prompt 9
+
+Prompt:
+Summarize:
+AI is useful in healthcare. → AI helps doctors
+
+Summarize:
+“AI improves education by personalizing learning.”
+
+Before:
+AI improves education.
+
+After:
+AI helps personalize learning in education.
+
+🔹 Prompt 10
+
+Prompt:
+Complete pattern:
+2 → 4
+3 → 9
+4 → 16
+
+5 → ?
+
+Before:
+25
+
+After:
+25 (pattern is square of number: n²)
+
+🧠 3. CHAIN-OF-THOUGHT PROMPTS (Step-by-step reasoning)
+🔹 Prompt 11
+
+Prompt:
+“If a student studies 2 hours daily, how many hours in 7 days? Explain step-by-step.”
+
+Before:
+14 hours
+
+After:
+Step 1: Daily study = 2 hours
+Step 2: Days = 7
+Step 3: Total = 2 × 7 = 14 hours
+
+🔹 Prompt 12
+
+Prompt:
+“A train travels 60 km/hr for 2 hours. Distance?”
+
+Before:
+120 km
+
+After:
+Step 1: Speed = 60 km/hr
+Step 2: Time = 2 hours
+Step 3: Distance = Speed × Time = 60 × 2 = 120 km
+
+🔹 Prompt 13
+
+Prompt:
+“Find average of 10, 20, 30”
+
+Before:
+20
+
+After:
+Step 1: Sum = 10 + 20 + 30 = 60
+Step 2: Count = 3
+Step 3: Average = 60 / 3 = 20
+
+🔹 Prompt 14
+
+Prompt:
+“If price is $100 and discount is 20%, final price?”
+
+Before:
+$80
+
+After:
+Step 1: Discount = 20% of $100 = $20
+Step 2: Final price = 100 - 20 = $80
+
+🔹 Prompt 15
+
+Prompt:
+“A car uses 5 liters for 50 km. Mileage?”
+
+Before:
+10 km/l
+
+After:
+Step 1: Distance = 50 km
+Step 2: Fuel = 5 liters
+Step 3: Mileage = 50 / 5 = 10 km per liter
+
+🧠 4. ROLE-BASED PROMPTS (Assign a role)
+🔹 Prompt 16
+
+Prompt:
+“Act as a teacher and explain photosynthesis.”
+
+Before:
+Photosynthesis is a process in plants.
+
+After:
+As a teacher:
+Photosynthesis is the process by which plants make their food using sunlight, carbon dioxide, and water. It occurs in leaves and produces oxygen as a byproduct.
+
+🔹 Prompt 17
+
+Prompt:
+“Act as a fitness trainer. Suggest workout for beginners.”
+
+Before:
+Do exercise daily.
+
+After:
+As a fitness trainer:
+Start with 3 days/week:
+
+Push-ups (10 reps)
+Squats (15 reps)
+Plank (30 sec)
+Gradually increase intensity.
+🔹 Prompt 18
+
+Prompt:
+“Act as a doctor. Give advice for headache.”
+
+Before:
+Take rest.
+
+After:
+As a doctor:
+Stay hydrated, take proper rest, avoid screen time, and consider mild medication if needed. If pain persists, consult a professional.
+
+🔹 Prompt 19
+
+Prompt:
+“Act as a career counselor. Suggest jobs for AI student.”
+
+Before:
+Software engineer
+
+After:
+As a career counselor:
+You can explore roles like Machine Learning Engineer, Data Scientist, AI Researcher, or NLP Engineer based on your skills.
+
+🔹 Prompt 20
+
+Prompt:
+“Act as an interviewer. Ask Python questions.”
+
+Before:
+What is Python?
+
+After:
+As an interviewer:
+
+What are Python data types?
+Difference between list and tuple?
+What is a decorator?
+Explain OOP in Python.
